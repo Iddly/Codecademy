@@ -1,7 +1,18 @@
 body {
     background-color: blue;
+    color: white;
 }
 
 .css_container {
     display: flex;
+}
+
+.banner {
+    height: 800px;
+    width: 100%;
+}
+
+.banner_container {
+    height: 300px;
+    width: 100%;
 }

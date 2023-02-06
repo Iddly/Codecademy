@@ -8,21 +8,75 @@
     <link href="css_styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="resources/images/CSS_Banner.png">
+    <header class="banner_container">
+        <img src="resources/images/CSS_Banner.png" class="banner">
     </header>
     <div class="css_container">
         <div>
-            <p>syntax to write CSS</p>
+            <p>Syntax to write CSS</p>
+            <img src="/resources/images/css-cheatsheet-1.png">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Selectors</td>
+                    <td>The element(s) on which the style should be applied.</td>
+                </tr>
+                <tr>
+                    <td>Property and its value</td>
+                    <td>This is the actual style to be applied to the element(s).</td>
+                </tr>
+            </table>
         </div>
         <div>
             <p>3 places to write CSS</p>
+            <p>(A) Inline Styles</p>
+            <img src="/resources/images/css-cheatsheet-2.png">
+            <p>(B) in the &lt;style&gt; element</p>
+            <img src="/resources/images/css-cheatsheet-3.png">
+            <p>(C) In a dedicatde file (style.css) & refer that file via the &lt;link&gt; element.</p>
+            <img src="/resources/images/css-cheatsheet-4.png">
         </div>
         <div>
             <p>Selectors and their syntax</p>
+            <table>
+                <tr>
+                    <th>Basic Selectors</th>
+                    <th>Combinators</th>
+                    <th></th>
+                    <th>Psuedo Selectors</th>
+                </tr>
+                <tr>
+                    <td>elementname</td>
+                    <td>selectorA + selectorb</td>
+                    <td>Adjacent sibiling</td>
+                    <td>:active</td>
+                </tr>
+                <tr>
+                    <td>.classname</td>
+                    <td>selectorA ~ selectorB</td>
+                    <td>General sibiling</td>
+                    <td>:hover</td>
+                </tr>
+                <tr>
+                    <td>#idname</td>
+                    <td>parent > child</td>
+                    <td>Direct child</td>
+                    <td>:visited</td>
+                </tr>
+                <tr>
+                    <td>[attr=value]</td>
+                    <td>parent descendent</td>
+                    <td>Descendent</td>
+                    <td>:focus</td>
+                </tr>
+            </table>
         </div>
         <div>
             <p>Common CSS properties (by group)</p>
+            <img src="/resources/images/css-cheatsheet-5.png">
         </div>
     </div>
 </body>

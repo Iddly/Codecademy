@@ -1,42 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea Cozy</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-<!-- Navagation -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="container-all">
+    <!-- Navigation -->
     <header class="navbar">
-        <img src="resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
-        <ul>
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Featured Tea</a></li>
-            <li><a href="#">Locations</a></li>
-        </ul>
+      <img src="resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo" />
+      <ul>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#tea-of-the-month">Featured Tea</a></li>
+        <li><a href="#location">Locations</a></li>
+      </ul>
     </header>
-<!-- Mission Section -->
-    <div class="img-container">
-        <div>
-            <h2>Our Mission</h2>
-            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-        </div>
+    <!-- Mission Section -->
+    <div class="img-container-mission">
+      <div>
+        <h2 id="mission">Our Mission</h2>
+        <h4>
+          Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch,
+          Fair Trade, Organic Tea
+        </h4>
+      </div>
     </div>
-<!-- Tea of The Month -->
+    <!-- Tea of The Month -->
     <div>
-        <h2>Tea of the Month</h2>
-        <h4>What's Steeping at The Tea Cozy?</h4>
-        
+      <h2 id="tea-of-the-month">Tea of the Month</h2>
+      <h4>What's Steeping at The Tea Cozy?</h4>
     </div>
-<!-- Locations -->
-    <div></div>
-<!-- Contact -->
-    <div></div>
-<!-- Footer -->
-    <footer>
-        <h5>copyright The Tea Cozy 2017</h5>
+    <div class="flex-container">
+      <div>
+        <img class="img-box" src="resources/images/img-berryblitz.jpg" alt="" />
+        <div class="text">Fall Berry Blitz Tea</div>
+      </div>
+      <div>
+        <img class="img-box" src="resources/images/img-spiced-rum.jpg" alt="" />
+        <div class="text">Spiced Rum Tea</div>
+      </div>
+      <div>
+        <img class="img-box" src="resources/images/img-donut.jpg" alt="" />
+        <div class="text">Seasonal Donuts</div>
+      </div>
+      <div>
+        <img class="img-box" src="resources/images/img-myrtle-ave.jpg" alt="" />
+        <div class="text">Myrtle Ave Tea</div>
+      </div>
+      <div>
+        <img
+          class="img-box"
+          src="resources/images/img-bedford-bizarre.jpg"
+          alt=""
+        />
+        <div class="text">Bedford Bizarre Tea</div>
+      </div>
+    </div>
+    <!-- Locations -->
+    <div class="location-container-img">
+      <h2 id="location">Locations</h2>
+      <div class="location-container-box">
+        <div class="location-box">
+          <h3>Downtown</h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location-box">
+          <h3>East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location-box">
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact-container">
+      <h2>The Tea Cozy</h2>
+      <p>contact@theteacozy.com</p>
+      <p>917-555-8904</p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer-container">
+      <h5>copyright The Tea Cozy 2017</h5>
     </footer>
-</body>
+  </body>
 </html>

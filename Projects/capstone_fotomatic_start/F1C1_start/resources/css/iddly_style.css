@@ -8,7 +8,6 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
-  background-image: url(/F1C1_start/resources/images/banner-landingpage.jpg);
 }
 
 .center {
@@ -39,31 +38,24 @@ html {
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  height: 5.313rem;
-  display: flex;
 }
 
 header .content {
   display: flex;
-  width: 100%;
   align-items: center;
   padding: 1.875rem;
 }
 
 header .logo {
   flex: 1;
-  text-decoration: none;
 }
 
 header nav ul {
   display: flex;
-  list-style-type: none;
 }
 
 nav li {
@@ -127,11 +119,18 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url(/F1C1_start/resources/images/banner-landingpage.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
+  position: relative;
+  top: 171px;
+  left: 10%;
   padding: 0 5rem 2.5rem 5rem;
-  border: solid 1px #979797;
+  border: 1px solid #979797;
   border-radius: 4px;
   background-color: #9dc20b;
 }

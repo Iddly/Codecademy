@@ -8,6 +8,7 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  background-image: url(/F1C1_start/resources/images/banner-landingpage.jpg);
 }
 
 .center {
@@ -41,21 +42,28 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  border: 1px solid red;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 5.313rem;
+  display: flex;
 }
 
 header .content {
   display: flex;
+  width: 100%;
   align-items: center;
   padding: 1.875rem;
 }
 
 header .logo {
   flex: 1;
+  text-decoration: none;
 }
 
 header nav ul {
   display: flex;
+  list-style-type: none;
 }
 
 nav li {
@@ -67,6 +75,7 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 header .icon {

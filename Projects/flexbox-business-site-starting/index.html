@@ -11,14 +11,14 @@
   <body>
     <header>
       <div class="logo">
-        <p>Kristy's Treats</p>
+        <a href="index.html">Kristy's Treats</a>
       </div>
       <div class="nav">
         <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Location</li>
-          <li class="order_button">Order Now</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><button>Order Now</button></li>
         </ul>
       </div>
     </header>
@@ -26,34 +26,40 @@
       <div class="main_img">
         <img src="#" />
       </div>
-      <div class="about">
+      <div id="about" class="about">
         <p>About</p>
       </div>
-      <div class="services">
+      <div id="services" class="services">
         <p>Services</p>
       </div>
-      <div class="location">
+      <div id="location" class="location">
         <p>Location</p>
       </div>
     </main>
     <footer>
-      <div class="externals">
+      <div class="left">
         <ul>
           <li>
-            <img src="/resources/facebook.png" />
+            <a href="#">
+              <img src="/resources/facebook.png" />
+            </a>
           </li>
           <li>
-            <img src="/resources/instagram.png" />
+            <a href="#">
+              <img src="/resources/instagram.png" />
+            </a>
           </li>
           <li>
-            <img src="/resources/mail.png" />
+            <a href="#">
+              <img src="/resources/mail.png" />
+            </a>
           </li>
         </ul>
       </div>
-      <div>
+      <div class="right">
         <ul>
           <li>Contact</li>
-          <li class="email_signup_button">Email SignUp</li>
+          <li><button>Email SignUp</button></li>
         </ul>
       </div>
     </footer>

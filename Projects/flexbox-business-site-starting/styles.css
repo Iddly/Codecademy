@@ -12,19 +12,29 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border: 1px solid red;
 }
 
-header .logo {
+header .logo a {
+  text-decoration: none;
 }
 
 header .nav li {
   display: inline;
+  padding-left: 20px;
+}
+
+header .nav a {
+  text-decoration: none;
+}
+
+header button {
 }
 
 /*Main*/
 main {
-  border: 1px solid red;
+  border: 1px solid orange;
 }
 
 main .about {
@@ -39,9 +49,24 @@ main .locaion {
 /*Footer*/
 footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
 }
 
 footer li {
   display: inline;
   list-style-type: none;
+}
+
+footer .left a {
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+footer .right li {
+  padding-left: 20px;
+}
+
+footer button {
 }

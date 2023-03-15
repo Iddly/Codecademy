@@ -1,0 +1,47 @@
+/*Universal Settings*/
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 1px solid blue;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+header .logo {
+}
+
+header .nav li {
+  display: inline;
+}
+
+/*Main*/
+main {
+  border: 1px solid red;
+}
+
+main .about {
+}
+
+main .services {
+}
+
+main .locaion {
+}
+
+/*Footer*/
+footer {
+  display: flex;
+}
+
+footer li {
+  display: inline;
+  list-style-type: none;
+}

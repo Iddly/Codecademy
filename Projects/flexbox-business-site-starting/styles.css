@@ -2,10 +2,14 @@
 html {
   margin: 0;
   padding: 0;
-}
-
-body {
-  border: 1px solid blue;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    to right,
+    pink 0%,
+    pink 50%,
+    paleturquoise 50%,
+    #afeeee 100%
+  );
 }
 
 /*Header*/
@@ -13,11 +17,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 
-header .logo a {
-  text-decoration: none;
+header img {
+  width: 100%;
 }
 
 header .nav li {
@@ -29,21 +32,25 @@ header .nav a {
   text-decoration: none;
 }
 
-header button {
-}
-
 /*Main*/
 main {
-  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  display: flex;
 }
 
 main .about {
+  display: flex;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-main .services {
-}
-
-main .locaion {
+main .about p {
+  text-align: center;
 }
 
 /*Footer*/
@@ -51,7 +58,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
 }
 
 footer li {
@@ -61,12 +67,8 @@ footer li {
 
 footer .left a {
   text-decoration: none;
-  border: 1px solid red;
 }
 
 footer .right li {
   padding-left: 20px;
-}
-
-footer button {
 }

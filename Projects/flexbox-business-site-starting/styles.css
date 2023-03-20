@@ -6,7 +6,7 @@ html {
   background: linear-gradient(
     to right,
     pink 0%,
-    pink 50%,
+    #ffc0cb 50%,
     paleturquoise 50%,
     #afeeee 100%
   );

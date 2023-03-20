@@ -1,0 +1,65 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    to right,
+    #d9acf5 0%,
+    #d9acf5 50%,
+    #aae3e2 50%,
+    #aae3e2 100%
+  );
+}
+
+a {
+  color: #aae3e2;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+button {
+  background-color: #5a5a5a;
+  color: #aae3e2;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+  background-color: #bdbdbd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  transform: translateY(4px);
+}
+
+header {
+  width: 100%;
+  height: 117px;
+  background-color: #00ced1;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .splat {
+  position: absolute;
+  margin-top: 250px;
+}
+
+header .splat img {
+  width: 330px;
+}
+
+header li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}

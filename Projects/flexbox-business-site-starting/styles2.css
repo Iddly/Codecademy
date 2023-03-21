@@ -39,14 +39,13 @@ header {
   height: 117px;
   background-color: #00ced1;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
 }
 
 header .splat {
@@ -62,4 +61,18 @@ header li {
   display: inline;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 160px;
+}
+
+main #hero img {
+  width: 1140px;
+  height: 550px;
+  border-radius: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

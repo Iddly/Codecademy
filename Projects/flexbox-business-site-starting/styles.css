@@ -1,74 +1,37 @@
-/*Universal Settings*/
-html {
+body {
   margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  background: linear-gradient(
-    to right,
-    pink 0%,
-    #ffc0cb 50%,
-    paleturquoise 50%,
-    #afeeee 100%
-  );
 }
 
-/*Header*/
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
-  width: 100%;
-}
-
-header .nav li {
-  display: inline;
-  padding-left: 20px;
-}
-
-header .nav a {
-  text-decoration: none;
-}
-
-/*Main*/
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-main section {
-  display: flex;
-}
-
-main .about {
-  display: flex;
-  width: 50%;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-main .about p {
-  text-align: center;
-}
-
-/*Footer*/
+header,
 footer {
+  width: inherit;
+  height: 115px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  background-color: black;
+  color: white;
 }
 
-footer li {
-  display: inline;
-  list-style-type: none;
+header {
+  position: sticky;
+  top: 0;
 }
 
-footer .left a {
-  text-decoration: none;
+main {
+  width: inherit;
 }
 
-footer .right li {
-  padding-left: 20px;
+main #hero,
+#about,
+#treats {
+  width: inherit;
+  height: 450px;
+  border: 1px solid blue;
+}
+
+main #locations {
+  width: inherit;
+  height: 335px;
 }

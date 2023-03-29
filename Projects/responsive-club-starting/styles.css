@@ -1,0 +1,70 @@
+/* UNIVERSAL */
+
+body,
+img,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #008080;
+}
+
+li {
+  display: inline;
+  padding: 0 2rem;
+}
+
+/* TOPAGRAPHY */
+
+h1 {
+  color: #fffff3;
+  font-size: 2em;
+}
+
+h2 {
+  color: #fffff3;
+  font-weight: 900;
+  line-height: 1;
+  padding: 2rem 0 1rem 0;
+}
+
+p {
+  color: #fffffa;
+  margin-bottom: 1em;
+}
+
+/* HEADER */
+
+header {
+  border-bottom: 1px solid #eee;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* MAIN */
+
+.content {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.hero {
+  max-width: 100%;
+}
+
+.address {
+  line-height: 0;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 1px solid #eee;
+}

@@ -59,6 +59,10 @@ nav {
   max-width: 100%;
 }
 
+.hero img {
+  width: 100%;
+}
+
 .address {
   line-height: 0;
 }
